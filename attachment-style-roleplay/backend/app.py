@@ -43,7 +43,7 @@ REAL_CONVERSATION_PATTERNS = {
         "crying", "this is ridiculous", "i give up", "whatever", 
         "fuck", "fck", "shit", "damn", "hate", "can't stand", 
         "fed up", "done with", "over it", "stupid", "crazy",
-        "mad", "angry", "frustrated", "pissed"
+        "mad", "angry", "frustrated", "pissed","sad","anxious","embarassed"
     ],
     
     "personal_attacks": [
@@ -51,14 +51,14 @@ REAL_CONVERSATION_PATTERNS = {
         "go fuck", "fck ur", "screw you", "hate you", 
         "piece of shit", "asshole", "not meant", "wrong person", 
         "waste of time", "useless", "pathetic", "loser", 
-        "idiot", "stupid", "moron", "dumb"
+        "idiot", "stupid", "moron", "dumb", "useless"
     ],
     
     "relationship_threats": [
-        "leave this marriage", "need to leave", "want a divorce",
+        "leave this marriage", "leave me", "want a divorce",
         "not meant to", "break up", "leave you", "find someone", 
         "better than you", "done with you", "can't do this", 
-        "want out", "end this", "we're done", "it's over"
+        "want out", "end this", "we're done", "it's over","we're done"
     ],
     
     "respectful_requests": ["can you", "could you", "would you mind", "please"],
