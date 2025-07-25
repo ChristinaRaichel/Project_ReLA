@@ -6,7 +6,7 @@ import os
 # Page configuration
 st.set_page_config(
     page_title="Avoidant Communication Trainer",
-    page_icon="🎯",
+    page_icon="",
     layout="wide"
 )
 
@@ -448,7 +448,7 @@ with st.expander("📚 Real Conversation Example"):
     st.write("**Here's how a real conversation escalated:**")
     
     real_conv = [
-        ("You", "will u buy contra?", 0.3),
+        ("You", "will u buy me a pill?", 0.3),
         ("Partner", "if i go, pharmacy will ask for id", 0.6),
         ("You", "i dont think they will ask", 0.7, "🚨 Deflection challenge"),
         ("Partner", "why cant u buy it?", 0.8, "🚨 Counter-deflection"),  
